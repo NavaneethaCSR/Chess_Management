@@ -16,8 +16,14 @@ export class PlayerService {
     private readonly playerRepository: Repository<Player>,
   ) {}
 
-  async createPlayers(players: any[]) {
+ async createPlayers(players: any[]) {
+  // Remove old players
+  await this.playerRepository.clear();
+
+  // Create new players
   const data = this.playerRepository.create(players);
+
+  // Save new players
   return await this.playerRepository.save(data);
 }
 }
@@ -32,6 +38,7 @@ export class TournamentService {
   ) {}
 
   async createTournament() {
+    await this.matchRepository.clear();
     // Fetch players from each team
     const teamA = await this.playerRepository.find({
       where: { team: 'A' },
