@@ -15,8 +15,11 @@
    cd Frontend
    
 Install dependencies:
+
 flutter pub get
+
 Run the Flutter app:
+
 flutter run
 
 
@@ -24,4 +27,6 @@ flutter run
 2. Navigate to the backend folder.
   
      cd backend
+
+   run npm run start:dev
   
