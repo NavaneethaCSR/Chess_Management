@@ -20,7 +20,8 @@ Run the Flutter app:
 flutter run
 
 
-Navigate to the backend folder.
+### Backend (NestJs)
+2.Navigate to the backend folder.
   ```bash
      cd backend
 
