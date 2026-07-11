@@ -1,7 +1,11 @@
 # Chess_Management
 
 ## 🚀 Project Setup
-
+### TechStack used:
+-Fluuter
+-Dart
+-Riverpod
+-SQLite
 ### Prerequisites
 - [Flutter](https://flutter.dev/docs/get-started/install)
 - [Node.js](https://nodejs.org) (required for backend API)
