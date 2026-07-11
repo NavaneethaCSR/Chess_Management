@@ -28,5 +28,7 @@ flutter run
   
      cd backend
 
-   run npm run start:dev
+   run backend server
+   
+   npm run start: dev
   
