@@ -35,4 +35,6 @@ flutter run
    run backend server
    
    npm run start: dev
+
+3.The data is stored in database.sqlite file in backend folder   
   
