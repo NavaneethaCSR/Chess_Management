@@ -1,4 +1,25 @@
 # Chess_Management
 
-go to Frontend folder in VScode cd Frontend and run flutter run and in backend run npm run start:dev
-and the data is stored in database.sqlite3 in backend folder
+## 🚀 Project Setup
+
+### Prerequisites
+- [Flutter](https://flutter.dev/docs/get-started/install)
+- [Node.js](https://nodejs.org) (required for backend API)
+- npm (comes with Node.js)
+
+---
+
+### Frontend (Flutter)
+1. Open the **Frontend** folder in VS Code:
+   ```bash
+   cd Frontend
+Install dependencies:
+flutter pub get
+Run the Flutter app:
+flutter run
+
+
+Navigate to the backend folder.
+
+Start the server:
+npm run start:dev
