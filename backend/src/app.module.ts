@@ -11,7 +11,7 @@ import { AppService, PlayerService,TournamentService } from './app.service';
     TypeOrmModule.forRoot({
       type: 'sqlite',
       database: 'database.sqlite', // SQLite database file
-      entities: [Player,Match],
+      entities: [Player,Match,Tournament],
       synchronize: true,
     }),
 

@@ -67,7 +67,7 @@ class TeamScreen extends ConsumerWidget {
 ),
            const Text("PLAYERS OF EACH MATCH:"),
 
-...pairs1.map((p) => Text(p)).toList(),
+...pairs1.map((p) => Text(p)),
 
 const SizedBox(height: 20),
 const Text(
@@ -78,7 +78,7 @@ const Text(
   ),
 ),
 
-...pairs.map((p) => Text(p)).toList(),
+...pairs.map((p) => Text(p)),
           ],
         ),
       ),

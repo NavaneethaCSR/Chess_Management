@@ -5,11 +5,16 @@ export class Tournament {
 @PrimaryGeneratedColumn()
   id: number;
 
-   @Column()
-  tournamnet_name: String;
-  
-  
   @Column()
-  rounds: number;
+  tournamentId: number; 
+  
+   @Column()
+  playerA: string;
+
+  @Column()
+  playerB: string;
+
+  @Column()
+  winner: string;
   
 }
